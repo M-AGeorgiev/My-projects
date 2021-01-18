@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling Special Cases</title>
+</head>
+
+<body>
+    <h1 id="MainTItle">
+        zzasd
+
+    </h1>
+    <script>
+
+        var answer = prompt("What is your name");
+        var namenode = document.getElementById("MainTitle");
+        var name = namenode.innerText;
+
+        if (answer == "Mark") {
+            name = name + answer
+        } else if (answer == "Meri") {
+            console.log("UWU")
+        } else if (answer == "Denny") {
+            console.log("Bitch")
+        } else {
+            console.warn("Not handled")
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Logic</title>
+</head>
+
+<body>
+
+    <script>
+        var entrance = prompt("What is your name")
+        if (entrance.toLowerCase() == "zephyr") {
+            var isCat = true;
+        } else {
+            var isCat = false;
+        }
+
+        //Some other logic
+
+        if (isCat) {
+            alert("You're  a cat!")
+        } else {
+            alert("You're NOT  a cat!")
+        }
+        /* That means it's TRUE, so next time, when you see somethine like, 
+        "if (name) without anything else, it means TRUE"
+        */
+        /*
+                if (isCat == false) {
+                    alert("not a cat")
+                }
+                                                  Both means, the returt is FALSE!
+            if (!isCat) {
+                alert("not a cat")
+            }
+        */
+        if (isCat != true) {
+            alert("not a cat") //This is teh false block to execute
+        }
+
+
+        var isCat = 1;
+        var isCat = 0;
+        if (isCat) {
+
+        }
+        if (!isCat) {
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
