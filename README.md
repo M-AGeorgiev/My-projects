@@ -1,1 +1,1 @@
-# My-projects
+# Skillshare - JS basic to JS senior!
